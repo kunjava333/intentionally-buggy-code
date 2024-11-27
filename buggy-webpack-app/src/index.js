@@ -19,6 +19,7 @@ const component = () => {
     
   let element = document.createElement('div');
   
+  
     element.innerHTML = `Let's reverse the word "hello": ${IBC.reverse('hello')}`
 
   return element;
